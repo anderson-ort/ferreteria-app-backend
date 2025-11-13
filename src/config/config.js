@@ -8,8 +8,8 @@ const {
     SUPABASE_URL,
     SUPABASE_API_KEY,
     DATABASE,
-    SERVER_PORT,
-    SERVER_HOST
+    PORT,
+    HOST
 } = process.env
 
 
@@ -18,6 +18,6 @@ export const config = {
     SUPABASE_API_KEY,
     DATABASE,
     MONGO_URI,
-    SERVER_PORT,
-    SERVER_HOST
+    PORT,
+    HOST
 }

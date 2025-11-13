@@ -11,10 +11,10 @@ const runServer = async () => {
         }
 
         server.listen(
-            config.SERVER_PORT,
-            config.SERVER_HOST,
+            config.PORT,
+            config.HOST,
             console.log(`
-                Server is running at: http://${config.SERVER_HOST}:${config.SERVER_PORT}
+                Server is running at: http://${config.HOST}:${config.PORT}
             `)
 
         )
