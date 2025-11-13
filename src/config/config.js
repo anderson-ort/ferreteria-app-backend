@@ -8,10 +8,10 @@ const {
     SUPABASE_URL,
     SUPABASE_API_KEY,
     DATABASE,
-    PORT,
     HOST
 } = process.env
 
+const PORT = process.env.PORT ?? 8080
 
 export const config = {
     SUPABASE_URL,
