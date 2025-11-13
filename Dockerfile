@@ -18,5 +18,7 @@ COPY . .
 # Ensure logs go to stdout/stderr (no buffering)
 ENV NODE_ENV=production
 
+EXPOSE 8080
+
 # Start the server — Cloud Run injects PORT automatically
 CMD ["node", "index.js"]
