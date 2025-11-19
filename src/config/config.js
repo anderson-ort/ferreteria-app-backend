@@ -11,7 +11,7 @@ const {
     HOST
 } = process.env
 
-PORT = process.env.PORT || 8080
+PORT = process.env.PORT || 3000
 
 export const config = {
     SUPABASE_URL,
