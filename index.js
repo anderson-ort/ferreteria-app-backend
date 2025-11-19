@@ -12,7 +12,6 @@ const runServer = async () => {
 
         server.listen(
             config.PORT,
-            config.HOST,
             console.log(`
                 Server is running at: http://${config.HOST}:${config.PORT}
             `)
