@@ -24,6 +24,7 @@
   },
   "contributors": [],
   "scripts": {
+    "start": "node index.js",
     "dev": "node --watch index.js",
     "format": "npx biome format --write src/ index.js"
   },
@@ -42,3 +43,4 @@
     "morgan": "^1.10.1"
   }
 }
+

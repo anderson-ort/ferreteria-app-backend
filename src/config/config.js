@@ -7,11 +7,11 @@ const {
     MONGO_URI,
     SUPABASE_URL,
     SUPABASE_API_KEY,
-    DATABASE,
-    HOST
+    DATABASE
 } = process.env
 
-PORT = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
+const HOST = process.env.HOST || "0.0.0.0"
 
 export const config = {
     SUPABASE_URL,
